@@ -1,0 +1,42 @@
+body,h1,h2,h3,h4,h5,p,dl,dd,ul,ol,form,input,textarea,th,td,select { margin:0; padding:0; }
+em { font-style:normal; }
+button,input{ border:0; background:none; outline:none;}
+button{ cursor:pointer;}
+ul,li,ol,li { list-style:none; }
+a { text-decoration:none; color: #333;}
+img { border:none; vertical-align:top; }
+table { border-collapse:collapse; }
+input,textarea,select,option{ outline:none; }
+textarea { resize:none; overflow:auto; }
+body { font-size:14px; font-family:"微软雅黑"; color: #333;}
+/* end reset */
+/* public */
+.clear { zoom:1; }
+.clear:after { content:''; display:block; clear:both; }
+.fl { float:left; }
+.fr { float:right; }
+/* header */
+#header{height: 80px;}
+.header,.main,.main02,.maincon{width: 1200px;margin: 0 auto;}
+.logo{ width:350px;padding-top: 10px;float: left; }
+.nav{padding-top: 35px;font-size:16px;}
+.nav li{margin: 0 26px;}
+.nav li a:hover,.nav .active a{color: #0292dd;}
+.personal{width: 124px; cursor: pointer; position: relative;height:53px;margin-top:-8px;}
+.personal .photo{ margin-right: 10px; width:40px;height:40px;}
+.personal .icon_arr{width: 9px;height: 6px; display: inline-block;background: url('../images/sprite.png') no-repeat ;background-position:-19px -37px; }
+.personal span{line-height: 42px;display: inline-block; } 
+.personal ul{width: 84px;border: 1px solid #eee;background: #fff; position: absolute;top:44px;right: 2px;line-height: 32px;text-align: center;z-index:9;}
+.personal ul li a{display: block;}
+.personal ul li:hover{background: #fafafa;}
+.personal ul li:hover a{color: #0292dd; }
+#bottom{height: 120px;background: #444546;margin-top: 30px;text-align: center;padding-top: 30px;}
+#bottom p{font-family: "宋体";color: #fff;line-height: 30px;}
+#mainlist{ border-top: 1px solid #f8f8f8;min-height:500px; }
+.page {font-family:"宋体";}
+.page a{color: #305395;padding:0 8px;border: 1px solid #ccd0d1;display: inline-block;margin-right: 6px;line-height: 24px;}
+.page a:hover{background: #fdedde;border-color: #ef6800;color: #ef6800;}
+.page span{ display: inline-block;margin-right: 6px; }
+.page span input[type=text]{width: 30px;height: 24px;border: 1px solid #ccd0d1;margin: 0 4px;text-align: center;}
+.page input[type=text]{width: 30px;height: 24px;border: 1px solid #ccd0d1;margin: 0 4px;text-align: center;}
+.page input[type=submit]{height: 24px;padding: 0 4px;border:1px solid #24304a;border-radius: 4px;}

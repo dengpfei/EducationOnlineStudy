@@ -1,0 +1,83 @@
+﻿body { line-height:40px; }
+pre { display:inline-block;white-space:pre-wrap; white-space:-moz-pre-wrap; white-space:-pre-wrap; white-space:-o-pre-wrap; word-wrap:break-word;}
+input { vertical-align:middle; }
+/* 试卷标题 */
+.PagerTitle{height: 42px;line-height: 42px;background-color: #ebf5fd;font-size: 20px;color: #444;text-align: center;font-weight: bold;}
+.PagerErrorBox { min-height:200px; line-height:50px; margin-top:30px; color:#CC1600;  font-size:14px;}
+
+/* 试卷属性 */
+.PagerAttribute { line-height: 1;font-size: 18px;color: #444;padding: 20px 0;  }
+.AnalysisSubmitTest { position:relative; }
+.AnalysisSubmitTest .msg {width: 188px;height: 30px;line-height: 30px;padding-left: 15px;color: #026695; color:Black;
+background: url(../Images/AnsXml/css4.png) no-repeat 0 -64px; display: block; position: absolute;
+top: 2px;left: 120px;}
+
+.shijuList{font-size:16px;}
+
+/* 按钮 */
+
+.AnalysisSubmitTest input { background: #149ede;color: white;text-align: center;line-height: 35px;width: 120px;height: 35px;display: inline-block;font-size: 14px;
+                            font-family: 宋体;font-weight: bold;cursor: pointer;-moz-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;}
+.AnalysisSubmitTest input:hover {background: #5acc11;}
+.AnalysisSubmitTest .msg span { color:Red; font-weight:bold; }
+
+/* 解析试题的Div容器样式 */
+.AnalysisExerciseBox { clear:both; margin-top:5px; padding:5px;  }
+.AnalysisExerciseContent img { vertical-align:middle; }
+.shijuBox img,.shitiCnt img{ vertical-align:middle; }
+
+/* 试题容器中标题层 */
+.AnalysisExerciseTitle {display:inline; }
+.AnalysisExerciseTitle ul,.AnalysisExerciseTitle li { margin:0px; padding:0px; list-style:none; }
+.AnalysisExerciseTitle li { float:left; width:12px; height:12px; margin-top:14px;}
+.AnalysisExerciseTitle span ,AnalysisExerciseTitle ul{ float:left;}
+
+/* 小题样式 */
+.SubExercise { margin-bottom:5px; padding:5px;}
+
+/*  序号样式 */
+.serialNumber { font-size:14px; line-height:30px; background:#EBF5FD; }
+
+/* 填空输入框样式 */
+.textBox { border-bottom:1px solid rgb(23,114,240); padding-left:5px; font-weight:bold; text-align:center;}
+
+/* 试题填写验证 */
+.NoneSelected{  background:#fff5f4;}
+
+/* 主观题答案输入框 */
+.ZgTextarea{  padding:3px; width:40%; color:Gray; font-size:10px; border:1px solid #ccc;}
+.ZgTextareaHover { width:90% !important; color:Black;  font-size:12px !important; }
+
+/*  在线测试页面计时提醒 */
+.TimingReminder { width:250px; height:55px; font-family:微软雅黑; font-size:20px; line-height:55px; padding-left:10px; 
+                  background:#ff4b39; color:#ffffff; position:fixed; z-index:999; right:0px; display:none; }
+ /* 半透明的遮罩层 */
+#overlay { display:none;  width:250px; height:100px;background:#fff; padding:10px; font-size:13px;} 
+#overlay input { padding:5px; cursor:pointer; background:#149EDE; color:White; }
+#overlay input:hover { background:#ff4b39; }
+#ShowTs{ display:none;width:400px;background:#fff;border-radius:5px;}
+.theme-poptit02 {height:36px;padding-left:20px;font:300 16px/36px 微软雅黑;border-bottom:1px solid #ddd; background:#f2f1f1;position: relative;}
+.theme-poptit02 .close02 {float:right;color:#999; position:absolute;top:8px;right:16px;font:bold 14px/14px simsun;text-shadow:0 1px 0 #ddd;}
+.theme-popbod02 {padding:35px 15px;color:#444;/* height: 168px; */}
+.theme-popbod02 .box_l,.theme-popbod02 .box_r{width: 180px;}
+.theme-popbod02 .box_l img{float: right;padding-right: 20px;}
+.theme-popbod02 .box_r{color: #f00;font-size: 18px;padding-top: 30px;line-height: 24px;text-align: center;}
+.theme-popbod02 .tishi{line-height: 22px;font-size: 16px;display:none;}
+.theme-popbod02 .btn{font-size: 18px;text-align: center;margin:20px auto 0;}
+.theme-popbod02 .btn a{width:120px;height: 36px;line-height: 36px;color: #fff;display:inline-block;margin: 0 15px;background: #ccc;}
+.theme-popbod02 .btn a.current,.theme-popbod02 .btn a:hover{background: #149ede;}
+.fl { float:left; }
+.fr { float:right; }
+.clear { zoom:1; }
+.clear:after { content:''; display:block; clear:both; }
+
+
+/* 试卷分数显示 */
+.PreviewScore { color:Red; font-size:100px; font-weight:bold; text-decoration:underline;  position:absolute; left:120px; top:100px;font-family: 'Tangerine', serif;  }
+
+
+/* 试卷对齐方式 */
+.align_left{ text-align:left; }
+.align_right { text-align: right;}
+.align_center { text-align:center; }
+

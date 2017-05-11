@@ -1,0 +1,139 @@
+﻿/****************************=init 初始化 S*****************************************/
+pre { display:inline-block;white-space:pre-wrap; white-space:-moz-pre-wrap; white-space:-pre-wrap; white-space:-o-pre-wrap; word-wrap:break-word;}
+input { vertical-align:middle; }
+html{
+
+color:#000;
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+overflow-y: auto;
+overflow-x: auto;
+background-color:#fff;
+height:100%;
+word-break:break-all;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+margin:0;padding:0; 
+}
+
+body{ position: relative;}
+/* 要注意表单元素并不继承父级 font 的问题 */
+body,button,input,select,textarea{
+font:12px/1.5 arial,"\5b8b\4f53","\5FAE\8F6F\96C5\9ED1"; color:#444;
+}
+input,select,textarea{font-size:100%;}
+
+/* 去掉各Table  cell 的边距并让其边重合 */
+table{border-collapse:collapse;border-spacing:0;}
+
+/* IE bug fixed: th 不继承 text-align*/
+th{text-align:inherit;}
+
+/* 去除默认边框 */
+fieldset,img,input{border:0;}
+
+/* ie6 7 8(q) bug 显示为行内表现 */
+iframe{display:block;}
+
+address,caption,cite,code,dfn,em,th,var {font-style:normal;font-weight:500;}
+
+/* 去掉列表前的标识, li 会继承 */
+ol,ul {list-style:none;}
+
+/* 对齐是排版最重要的因素, 别让什么都居中 */
+caption,th {text-align:left;}
+
+/* 来自yahoo, 让标题都自定义, 适应多个系统应用 */
+h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:500;}
+
+q:before,q:after {content:'';}
+
+/* 统一上标和下标 */
+sub, sup {
+font-size: 75%; line-height: 0; position: relative; vertical-align: baseline;
+}
+sup {top: -0.5em;}
+sub {bottom: -0.25em;}
+
+
+/*去除点击虚线*/
+a,a:focus,input,input:focus,textarea{outline:none;}
+
+/* 默认不显示下划线，保持页面简洁 */
+ins,a {text-decoration:none;}
+
+
+/*****重用功能区 S*****/
+
+/* 清理浮动 */
+.fn-clear:after {visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0;}
+.fn-clear {zoom:1; /* for IE6 IE7 */}
+.fn-clear a { cursor:pointer;}
+.fn-hide {display:none;}
+.fn-block {display:block;}
+.fn-left,.fn-right {display:inline;cursor:pointer;}
+.fn-left {float:left;}
+.fn-right {float:right;}     
+.fn-abs{position:absolute;}
+.fn-rel{position:relative;}
+.fn-indent{position:absolute;text-indent:-9999px;	}
+
+.fn-inden-2em{ text-indent:2em;}
+
+.fn-img{ line-height: 0; _font-size: 0;}
+
+.fn-noborder{ border: none !important;}
+
+.fn-ieopacity{filter:alpha(opacity=50);}
+
+/*强制换行*/
+.fn-wb{word-break:break-all;}
+
+/*文字1像素白色阴影*/
+.fn-textshadow-1{text-shadow: 0px 1px 0px white;}
+/*****重用功能区 E*****/
+
+/* 隐藏 */
+.hide { display:none;}
+
+/*****兼容区 S*****/
+/*=fixed IE6的解决方案*/
+html,html body{
+_background-image:url('about:blank');
+_background-attachment:fixed;
+}
+.sl-fixed {
+position: fixed;
+_position:absolute;
+right:70px;
+bottom:5px;
+_top:expression(eval(document.compatMode && document.compatMode == 'CSS1Compat') ? documentElement.scrollTop + (documentElement.clientHeight - this.clientHeight) - 0 : document.body.scrollTop + (document.body.clientHeight - this.clientHeight) - 0);
+}
+/*=fixed解决方案*/
+
+/*等高布局*/
+.sl-equalheight{ margin-bottom: -99999px;padding-bottom: 99999px;}
+
+
+/*******************************************************************************/
+/* 功能区 */
+
+.AnalysisBox {width:978px;  padding:10px; margin:0 auto; }
+.AnalysisBox .page { background:#fff url(../Images/AnsXml/icon2.png) no-repeat top; border-left:1px #bcbcbc solid;border-bottom:1px #bcbcbc solid; border-right: 1px #bcbcbc solid; min-height: 600px; padding: 50px 12px; position: relative;}
+
+.AnalysisBox .timeBox{ position: absolute; width: 256px; top: 98px; right:0px;}
+.AnalysisBox .timeBox .img{ float: left; margin-right: 10px;}
+.AnalysisBox .timeBox ul{ float: left; margin-top: 7px;}
+.AnalysisBox .timeBox ul li{float: left; height: 33px; line-height: 33px; text-align: center; font-family:"\5FAE\8F6F\96C5\9ED1"; font-size: 24px; font-weight: bold; margin: 0 5px; _display: inline;}
+.AnalysisBox .timeBox ul li.timeNum{ width: 33px;  color:#FFF; background: url(../Images/AnsXml/css4.png) no-repeat; }
+.AnalysisBox .timeBox ul li.timeF{ color: #149ede;}
+
+
+
+
+
+
+
+
+
